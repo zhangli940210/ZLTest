@@ -65,14 +65,18 @@
 
 #pragma mark - 点击蓝色的按钮
 - (IBAction)clickBlueButton{
+
 //    // 改变文本的颜色
 //    self.label.textColor = [UIColor blueColor];
 //    // 设置背景颜色
 //    self.label.backgroundColor = [UIColor grayColor];
-//    // 设置文本的对齐方式
-//    self.label.textAlignment = NSTextAlignmentLeft;
-//    // 设置字体的大小
-//    self.label.font = [UIFont systemFontOfSize:30];
+
+
+    // 设置文本的对齐方式
+    self.label.textAlignment = NSTextAlignmentRight;
+    // 设置字体的大小
+    self.label.font = [UIFont systemFontOfSize:40];
+
 }
 
 - (IBAction)testClick{
