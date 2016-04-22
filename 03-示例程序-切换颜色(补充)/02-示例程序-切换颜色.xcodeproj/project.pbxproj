@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		702744231C4C950C00EC532E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 702744221C4C950C00EC532E /* main.m */; };
+		702744261C4C950C00EC532E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 702744251C4C950C00EC532E /* AppDelegate.m */; };
+		7027442C1C4C950C00EC532E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7027442A1C4C950C00EC532E /* Main.storyboard */; };
+		7027442E1C4C950C00EC532E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7027442D1C4C950C00EC532E /* Assets.xcassets */; };
+		702744311C4C950C00EC532E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7027442F1C4C950C00EC532E /* LaunchScreen.storyboard */; };
+		7027443A1C4C972B00EC532E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702744391C4C972B00EC532E /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7027441E1C4C950C00EC532E /* 02-示例程序-切换颜色.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-示例程序-切换颜色.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		702744221C4C950C00EC532E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		702744241C4C950C00EC532E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		702744251C4C950C00EC532E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7027442B1C4C950C00EC532E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7027442D1C4C950C00EC532E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		702744301C4C950C00EC532E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		702744321C4C950C00EC532E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702744381C4C972B00EC532E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		702744391C4C972B00EC532E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7027441B1C4C950C00EC532E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		702744151C4C950C00EC532E = {
+			isa = PBXGroup;
+			children = (
+				702744201C4C950C00EC532E /* 02-示例程序-切换颜色 */,
+				7027441F1C4C950C00EC532E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7027441F1C4C950C00EC532E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7027441E1C4C950C00EC532E /* 02-示例程序-切换颜色.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		702744201C4C950C00EC532E /* 02-示例程序-切换颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				702744241C4C950C00EC532E /* AppDelegate.h */,
+				702744251C4C950C00EC532E /* AppDelegate.m */,
+				702744381C4C972B00EC532E /* MainViewController.h */,
+				702744391C4C972B00EC532E /* MainViewController.m */,
+				7027442A1C4C950C00EC532E /* Main.storyboard */,
+				7027442D1C4C950C00EC532E /* Assets.xcassets */,
+				7027442F1C4C950C00EC532E /* LaunchScreen.storyboard */,
+				702744321C4C950C00EC532E /* Info.plist */,
+				702744211C4C950C00EC532E /* Supporting Files */,
+			);
+			path = "02-示例程序-切换颜色";
+			sourceTree = "<group>";
+		};
+		702744211C4C950C00EC532E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				702744221C4C950C00EC532E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7027441D1C4C950C00EC532E /* 02-示例程序-切换颜色 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702744351C4C950C00EC532E /* Build configuration list for PBXNativeTarget "02-示例程序-切换颜色" */;
+			buildPhases = (
+				7027441A1C4C950C00EC532E /* Sources */,
+				7027441B1C4C950C00EC532E /* Frameworks */,
+				7027441C1C4C950C00EC532E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-示例程序-切换颜色";
+			productName = "02-示例程序-切换颜色";
+			productReference = 7027441E1C4C950C00EC532E /* 02-示例程序-切换颜色.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		702744161C4C950C00EC532E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "小码哥";
+				TargetAttributes = {
+					7027441D1C4C950C00EC532E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 702744191C4C950C00EC532E /* Build configuration list for PBXProject "02-示例程序-切换颜色" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 702744151C4C950C00EC532E;
+			productRefGroup = 7027441F1C4C950C00EC532E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7027441D1C4C950C00EC532E /* 02-示例程序-切换颜色 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7027441C1C4C950C00EC532E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702744311C4C950C00EC532E /* LaunchScreen.storyboard in Resources */,
+				7027442E1C4C950C00EC532E /* Assets.xcassets in Resources */,
+				7027442C1C4C950C00EC532E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7027441A1C4C950C00EC532E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702744261C4C950C00EC532E /* AppDelegate.m in Sources */,
+				7027443A1C4C972B00EC532E /* MainViewController.m in Sources */,
+				702744231C4C950C00EC532E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7027442A1C4C950C00EC532E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7027442B1C4C950C00EC532E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7027442F1C4C950C00EC532E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702744301C4C950C00EC532E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		702744331C4C950C00EC532E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		702744341C4C950C00EC532E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		702744361C4C950C00EC532E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-示例程序-切换颜色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-2----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		702744371C4C950C00EC532E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-示例程序-切换颜色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-2----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		702744191C4C950C00EC532E /* Build configuration list for PBXProject "02-示例程序-切换颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702744331C4C950C00EC532E /* Debug */,
+				702744341C4C950C00EC532E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702744351C4C950C00EC532E /* Build configuration list for PBXNativeTarget "02-示例程序-切换颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702744361C4C950C00EC532E /* Debug */,
+				702744371C4C950C00EC532E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 702744161C4C950C00EC532E /* Project object */;
+}
